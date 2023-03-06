@@ -1,0 +1,114 @@
+body{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+    height: 12px; /* Set the height of the scrollbar */
+}
+
+/* Change the background color of the scrollbar */
+::-webkit-scrollbar-track {
+background: rgba(34, 51, 34, 0.4);
+}
+
+/* Change the color and radius of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+background: greenyellow;
+border-radius: 5px;
+}
+
+/* Change the color and radius of the scrollbar thumb when hovering */
+::-webkit-scrollbar-thumb:hover {
+background: greenyellow;
+border-radius: 6px;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+ul{
+    text-align: center;
+    padding: 7px;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1rem;
+    position: relative;
+}
+a::after{
+    content: '';
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+    width: 100%;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+ul li a:hover::after{
+    opacity: 1;
+    
+}
+.nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-link.active{
+    background-color: greenyellow;
+    border: none;
+    color:rgb(0, 0, 0);
+    transition: all linear 0.2s;
+    padding: 7px;
+}
+
+p{
+    text-indent: 50px;
+    letter-spacing: 1px;
+}
+
+.navbar{
+    z-index: 1000;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 0px 5px white;
+    position: fixed;
+    transition: all 0.2s;
+    width: 100%;
+    background-color: rgba(38, 38, 38, 0.5);
+    margin: 0;
+    padding: 3;
+}
+
+
+
+.navbar.sticky{
+    width: 100%;
+    background-color: rgba(38, 38, 38 );
+    margin: 0;
+    padding: 0px;
+}
+
+.details{
+    margin-top: 120px;
+}
+h1 {
+    color: greenyellow !important;
+}
+
+.bars {
+padding-top: 70px;
+text-shadow: 5px 4px 10px rgb(26, 24, 22);
+}
+
+.footer{
+    border-top: 1px solid white;
+    box-shadow: 0px 0px 4px;
+    margin-bottom: 0;
+}
+
+.foots{
+    margin-left: 30px;
+}
+
