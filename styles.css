@@ -128,10 +128,15 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
 .hidden{
     opacity: 0;
     filter: blur(1px);
-    transition: all 2s;
+    transition: all 1s;
 }
 .show{
     opacity: 1;
     filter: blur(0);
 }
 
+@media (max-width: 575.98px) {
+    .custom-col-xs-4 {
+      width: calc((100% / 12) * 4);
+    }
+  }
