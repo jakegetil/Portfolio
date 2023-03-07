@@ -25,8 +25,8 @@ window.onscroll = function() {
   };
 
 
-const li = document.querySelectorAll(".nav-link");
-const sec = document.querySelectorAll("section");
+var li = document.querySelectorAll(".nav-link");
+var sec = document.querySelectorAll("section");
 
 function activemenu() { 
     let len=sec.length;
@@ -41,7 +41,7 @@ function activemenu() {
 
 
 
- const observer = new IntersectionObserver((entries) => {
+ var observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       console.log(entry)
       if(entry.isIntersecting){
@@ -53,7 +53,7 @@ function activemenu() {
     });
  });
 
- const hidden = document.querySelectorAll('.hidden');
+ var hidden = document.querySelectorAll('.hidden');
  hidden.forEach((el) => observer.observe(el) );
 
  
