@@ -112,3 +112,26 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
     margin-left: 30px;
 }
 
+.lang{
+    text-align: center;
+    background-color: #333536;
+    box-shadow: 10px 10px 10px rgb(31, 26, 26);
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.lg{
+    margin-left: 40px;
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(1px);
+    transition: all 2s;
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+}
+
