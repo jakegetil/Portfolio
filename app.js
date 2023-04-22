@@ -26,7 +26,9 @@
 
 window.addEventListener("load", function() {
   var loadingScreen = document.querySelector(".momentum");
+  var content = document.querySelector("#content");
   loadingScreen.style.display = "none";
+  content.style.display = "";
 });
 
 var li = document.querySelectorAll(".nav-link");

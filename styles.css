@@ -3,6 +3,12 @@ body{
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
+.loader{
+    position: absolute;
+    height: 100vh;
+    width: 99vw;
+    justify-content: center;
+}
 .momentum {
     --uib-size: 40px;
     --uib-speed: 1.1s;
