@@ -24,6 +24,10 @@
 //     active.classList.remove("show");
 //   };
 
+window.addEventListener("load", function() {
+  var loadingScreen = document.querySelector(".momentum");
+  loadingScreen.style.display = "none";
+});
 
 var li = document.querySelectorAll(".nav-link");
 var sec = document.querySelectorAll("section");
