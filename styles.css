@@ -10,14 +10,16 @@ body{
     left: -100px;
     top: 250px;
     position:absolute;
+    opacity: .7;
 }
 .moon{
 z-index: -1;
 width: 40%; 
 height: auto;
 position:absolute;
-right: -250px;
-top: -250px;
+opacity: .7;
+right: -200px;
+top: -200px;
 animation:  rotate 60s linear infinite;
 }
 @keyframes rotate {
@@ -78,7 +80,6 @@ a::after{
 }
 ul li a:hover::after{
     opacity: 1;
-    
 }
 .nav-link:hover{
     color: rgb(255, 255, 255);
