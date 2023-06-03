@@ -13,14 +13,19 @@ body{
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
-@media screen and (max-width: 390px) {
+@media (max-width: 414px) {
   .profilepic{
     width: 100%;
     height: 33%;
   }
 }
+@media (max-width: 575.98px) {
+    .custom-col-xs-4 {
+      width: calc((100% / 12) * 4);
+    }
+  }
 
-@media screen and (min-width: 391px) and (max-width: 768px) {
+@media (min-width: 415px) and (max-width: 768px) {
   .profilepic {
     width: 100%;
     height: 66%;
@@ -161,11 +166,7 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
     filter: blur(0);
 }
 
-@media (max-width: 575.98px) {
-    .custom-col-xs-4 {
-      width: calc((100% / 12) * 4);
-    }
-  }
+
 
 
 #star{
