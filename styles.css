@@ -3,78 +3,25 @@ body{
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
-.loader{
-    position: absolute;
-    height: 100vh;
-    width: 99vw;
-    justify-content: center;
+
+.profilepic{
+  border: 1px solid white;
+  border-radius: 65%;
+  overflow: hidden;
+  filter:drop-shadow(8px 6px 4px #ff995080);
+  box-shadow: 20px 12px 8px #ff995080;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
-.momentum {
-    --uib-size: 40px;
-    --uib-speed: 1.1s;
-    --uib-color: yellow;
-  
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: var(--uib-size);
-    width: var(--uib-size);
-    animation: rotate var(--uib-speed) linear infinite;
+
+@media screen and (max-width: 390px) {
+  .profilepic{
+    width: 100%;
+    height: 33%;
   }
+
   
-  .momentum::before,
-  .momentum::after {
-    content: '';
-    height: 25%;
-    width: 25%;
-    border-radius: 50%;
-    background-color: var(--uib-color);
-  }
-  
-  .momentum::before {
-    animation: wobble2 calc(var(--uib-speed) * 1.25) ease-in-out infinite;
-  }
-  
-  .momentum::after {
-    animation: wobble calc(var(--uib-speed) * 1.25) ease-in-out infinite;
-  }
-  
-  .momentum::before {
-    margin-right: 10%;
-  }
-  
-  @keyframes wobble {
-    0%,
-    100% {
-      transform: translateX(0);
-    }
-  
-    50% {
-      transform: translateX(calc(var(--uib-size) * 0.2)) scale(1.1);
-    }
-  }
-  
-  @keyframes wobble2 {
-    0%,
-    100% {
-      transform: translateX(0);
-    }
-  
-    50% {
-      transform: translateX(calc(var(--uib-size) * -0.2)) scale(1.1);
-    }
-  }
-  
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  
+}
+
 ::-webkit-scrollbar {
     width: 12px; /* Set the width of the scrollbar */
     height: 12px; /* Set the height of the scrollbar */
