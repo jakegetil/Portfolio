@@ -3,6 +3,12 @@ body{
     height: 100%;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
+
+.boxshadow{
+    background-color: rgba(27, 39, 53, 0.5);
+    border-radius: 20px;
+}
+
 .resume:hover{
     background: rgb(141, 139, 224);
 }
@@ -12,13 +18,16 @@ body{
 .resume{
     background: #FFC107;
 }
+.jakepic{
+  filter:drop-shadow(16px 12px 2px #00000080) brightness(1.1);
+}
 .profilepic{
   border: 1px solid white;
   border-radius: 65%;
   overflow: hidden;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   filter:drop-shadow(8px 6px 4px #ff995080);
   box-shadow: 20px 12px 8px #ff995080;
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
 @media (max-width: 414px) {
