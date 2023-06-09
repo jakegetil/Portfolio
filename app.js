@@ -31,6 +31,18 @@
 //   content.style.display = "";
 // });
 
+let preloader = document.querySelector('#preloader');
+if (preloader) {
+  // Check if the load event has already fired
+  if (document.readyState === 'complete') {
+    preloader.remove();
+  } else {
+    window.addEventListener('load', () => {
+      preloader.remove();
+    });
+  }
+}
+  
 var li = document.querySelectorAll(".nav-link");
 var sec = document.querySelectorAll("section");
 
