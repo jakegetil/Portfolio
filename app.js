@@ -10,7 +10,6 @@
 //   });
 // });
 
-
 // window.onscroll = function() {
 
 //     var navbar = document.querySelector(".navbar");
@@ -24,16 +23,8 @@
 //     active.classList.remove("show");
 //   };
 
-// window.addEventListener("load", function() {
-//   var loadingScreen = document.querySelector(".momentum");
-//   var content = document.querySelector("#content");
-//   loadingScreen.style.display = "none";
-//   content.style.display = "";
-// });
-
 let preloader = document.querySelector('#preloader');
 if (preloader) {
-  // Check if the load event has already fired
   if (document.readyState === 'complete') {
     preloader.remove();
   } else {
