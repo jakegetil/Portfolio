@@ -12,7 +12,7 @@ body{
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    /* background: #000000; */
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   }
   
   #preloader:before {
@@ -20,7 +20,7 @@ body{
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #37517e;
+    border: 6px solid #165cd4;
     border-top-color: #fff;
     border-bottom-color: #fff;
     border-radius: 50%;
