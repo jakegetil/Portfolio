@@ -4,6 +4,19 @@ body{
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
+.animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up-down {
+    0% {
+      transform: translateY(15px);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
+  }
+
 #preloader {
     position: fixed;
     top: 0;
