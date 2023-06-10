@@ -21,12 +21,12 @@ window.onscroll = function() {
       navbar.classList.remove("sticky");      
     }
     active.classList.remove("show");
-  };
+};
 
-let preloader = document.querySelector('#preloader');
+var preloader = document.querySelector('#preloader');
 if (preloader) {
   if (document.readyState === 'complete') {
-    preloader.remove();
+      preloader.remove();
   } else {
     window.addEventListener('load', () => {
       preloader.remove();
