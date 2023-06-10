@@ -190,7 +190,13 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
 }
 
 .footer{
-    margin-bottom: 0;
+    height: 20vh;
+    position: relative;
+}
+.footersize{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-color: rgba(0, 0, 0, .7);
 }
 .social{
@@ -208,9 +214,6 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
 
 .foots{
     margin-left: 30px;
-}
-#pl{
-  height: 90vh;
 }
 
 .lang{
