@@ -207,7 +207,13 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
 }
 .social .fa-brands{
   font-size: 40px;
+  position: relative !important;
 }
+.social .fa-brands:hover{
+  position: absolute;
+  color: blue;
+}
+
 .text-paragraph{
     text-align: justify;
 }
