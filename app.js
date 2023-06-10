@@ -10,18 +10,18 @@
 //   });
 // });
 
-// window.onscroll = function() {
+window.onscroll = function() {
 
-//     var navbar = document.querySelector(".navbar");
-//     var active = document.querySelector(".navbar-collapse");
+    var navbar = document.querySelector(".navbar");
+    var active = document.querySelector(".navbar-collapse");
 
-//     if (window.pageYOffset > 100) {
-//       navbar.classList.add("sticky");
-//     } else {
-//       navbar.classList.remove("sticky");      
-//     }
-//     active.classList.remove("show");
-//   };
+    if (window.scrollY > 100) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");      
+    }
+    active.classList.remove("show");
+  };
 
 let preloader = document.querySelector('#preloader');
 if (preloader) {
