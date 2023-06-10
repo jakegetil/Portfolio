@@ -201,9 +201,8 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
 }
 .social{
   display: flex;
-  justify-content: center ;
+  justify-content: center;
   gap: 40px;
-
 }
 .social .fa-brands{
   font-size: 40px;
@@ -216,10 +215,6 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
 
 .text-paragraph{
     text-align: justify;
-}
-
-.foots{
-    margin-left: 30px;
 }
 
 .lang{
