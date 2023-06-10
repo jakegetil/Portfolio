@@ -209,6 +209,9 @@ text-shadow: 5px 4px 10px rgb(26, 24, 22);
 .foots{
     margin-left: 30px;
 }
+#pl{
+  height: 90vh;
+}
 
 .lang{
     text-align: center;
