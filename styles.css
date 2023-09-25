@@ -3,6 +3,22 @@ body{
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
 }
 
+.spinner {
+   width: 56px;
+   height: 56px;
+   border-radius: 50%;
+   background: radial-gradient(farthest-side,#ADFF2F 94%,#0000) top/9px 9px no-repeat,
+          conic-gradient(#0000 30%,#ADFF2F);
+   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 0);
+   animation: spinner-c7wet2 1s infinite linear;
+}
+
+@keyframes spinner-c7wet2 {
+   100% {
+      transform: rotate(1turn);
+   }
+}
+
 .animated {
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -27,7 +43,7 @@ body{
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   }
   
-  #preloader:before {
+  /* #preloader:before {
     content: "";
     position: fixed;
     top: calc(50% - 30px);
@@ -39,7 +55,7 @@ body{
     width: 60px;
     height: 60px;
     animation: animate-preloader 1s linear infinite;
-  }
+  } */
   
   @keyframes animate-preloader {
     0% {
@@ -57,10 +73,14 @@ body{
 }
 
 .resume:hover{
-    background: rgb(141, 139, 224);
+    background: transparent;
+    color: #ADFF2F;
+    border: 1px solid #ADFF2F;
 }
 .resume:hover:active{
-    background: rgb(141, 139, 224);
+    background: #ADFF2F;
+    border:1px solid #ADFF2F;
+    color: Black;
 }
 .resume{
     background: #FFC107;
