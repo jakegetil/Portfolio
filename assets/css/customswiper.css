@@ -1,0 +1,18 @@
+.swiper-button-next, .swiper-button-prev{
+  color: whitesmoke !important;
+}
+
+.swiper-pagination-bullet-active{
+  background: whitesmoke !important;
+}
+
+.swiper-slide{
+  padding: 50px;
+}
+
+@media (max-width: 767px)
+{
+  .swiper-slide{
+    padding: 20px;
+  }
+}
