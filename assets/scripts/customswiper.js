@@ -1,20 +1,24 @@
 const swiper = new Swiper('.swiper', {
-    // Optional parameters
+    
     direction: 'horizontal',
     loop: false,
-  
-    // If we need pagination
+    effect: 'coverflow',
+
     pagination: {
       el: '.swiper-pagination',
+      clickable: true
     },
   
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-  
-    // And if we need scrollbar
-    // scrollbar: {
-    //   el: '.swiper-scrollbar',
-    // },
+
+    coverflowEffect:{
+      rotate: 50,
+      modifier: 2,
+      slideShadows : true,
+      scale: 1
+    },
+
   });
