@@ -63,5 +63,3 @@ function activemenu() {
 
  var hidden = document.querySelectorAll('.hidden');
  hidden.forEach((el) => observer.observe(el) );
-
- 
