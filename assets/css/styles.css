@@ -2,6 +2,7 @@ body{
     scroll-behavior: smooth;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     /* padding: 0 15px; */
+    overflow: hidden;
 }
 
 .spinner {
@@ -74,8 +75,8 @@ body{
 }
 
 .resume:hover{
-    background: transparent;
-    color: #ADFF2F;
+    background: #ADFF2F;
+    color: #000;
     border: 1px solid #ADFF2F;
     transform: scale(1.1);
 }
@@ -85,7 +86,7 @@ body{
     color: Black;
 }
 .resume{
-    background: #FFC107;
+    background: #ADFF2F;
     transition: all .3s ease-in-out;
 }
 
@@ -287,10 +288,11 @@ section{
   width: 100%;
   height: 100px;
   background: none;
-  position: absolute;
-  top: 0;
-  left:60px;
-  text-align: left;
+}
+
+.progress svg{
+  margin: 10px;
+  overflow: visible;
 }
 
 .bar {

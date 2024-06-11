@@ -22,17 +22,6 @@ window.onscroll = function() {
     }
     active.classList.remove("show");
 };
-
-var preloader = document.querySelector('#preloader');
-if (preloader) {
-  if (document.readyState === 'complete') {
-      preloader.remove();
-  } else {
-    window.addEventListener('load', () => {
-      preloader.remove();
-    });
-  }
-}
   
 var li = document.querySelectorAll(".nav-link");
 var sec = document.querySelectorAll("section");
