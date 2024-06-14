@@ -1,6 +1,6 @@
-
-
 var preloader = document.querySelector('#preloader');
+preloader.remove();
+document.body.style.overflow = 'visible';
 
 var bar = new ProgressBar.Circle('#progress', {
     color: '#ADFF2F',

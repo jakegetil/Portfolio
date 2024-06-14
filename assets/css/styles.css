@@ -309,3 +309,12 @@ section{
 .previewpic img{
   border-radius: 10px !important;
 }
+
+.lang img{
+  height: 20px;
+  width: auto;
+  margin-left: -10px ;
+}
+.lang .customicon{
+  margin-left: -10px ;
+}
