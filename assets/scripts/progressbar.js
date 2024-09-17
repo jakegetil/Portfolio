@@ -4,7 +4,7 @@ var preloader = document.querySelector('#preloader');
 
 var bar = new ProgressBar.Circle('#progress', {
     color: '#ADFF2F',
-    duration: 2000,
+    duration: 1000,
     easing: 'easeInOut',
     text: {
         autoStyleContainer: false
@@ -32,7 +32,7 @@ var bar = new ProgressBar.Circle('#progress', {
                             document.body.style.overflow = 'visible';
                         });
                     }
-                }, 500)
+                }, 100)
             }
         }
 
