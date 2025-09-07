@@ -1,3 +1,7 @@
+*{
+  color: #6c757d;
+}
+
 body{
     scroll-behavior: smooth;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
@@ -214,12 +218,12 @@ p{
     margin-top: 120px;
 }
 h1 {
-    color: greenyellow !important;
+    color: #E9ECEF !important;
 }
 
 .bars {
-padding-top: 40px;
-text-shadow: 5px 4px 10px rgb(26, 24, 22);
+  padding-top: 40px;
+  text-shadow: 5px 4px 10px rgb(26, 24, 22);
 }
 
 .footer{
@@ -321,4 +325,17 @@ section{
 
 html * {
   font-family: "Montserrat", sans-serif ;
+}
+
+.job_title, .job_tenure{
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+ul li , .lang, .text-paragraph{
+  color: #adb5bd;
+}
+
+.bars span{
+  color: greenyellow !important;
 }
